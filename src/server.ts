@@ -1,6 +1,5 @@
-
-function welcome(name: string){
-    console.log("Welcome to the server!" + name);
+function welcome(name: string) {
+    console.log('Welcome to the server!' + name)
 }
 
-welcome("John Doe");
+welcome('John Doe')
