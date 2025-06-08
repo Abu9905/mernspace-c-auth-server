@@ -1,13 +1,14 @@
 function welcome(name: string) {
-    console.log('Welcome to the server!' + name)
+    // console.log('Welcome to the server!' + name)
+    // console.log("welcome");
 
-    const user = {
-        name: 'abu',
-    }
+    // const user = {
+    //     name: 'abu',
+    // }
 
-    const fname = user.name
+    // const fname = user.name
 
-    return name + fname
+    return name
 }
 
 welcome('John Doe')
