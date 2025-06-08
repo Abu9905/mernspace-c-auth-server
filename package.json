@@ -9,7 +9,8 @@
     "format:check": "prettier . --check",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "author": "abu shama",
   "license": "ISC",
@@ -17,6 +18,7 @@
     "@eslint/js": "^9.28.0",
     "@types/node": "^22.15.29",
     "eslint": "^9.28.0",
+    "husky": "^9.1.7",
     "prettier": "3.5.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.33.1"
